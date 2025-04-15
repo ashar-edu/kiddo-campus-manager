@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
 
-## Project info
+# Kiddo Campus Manager
 
-**URL**: https://lovable.dev/projects/c38fe658-19c4-4948-98f0-40eefad00cf3
+A comprehensive pre-primary school management system for managing students, fees, staff, and finances.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Student Management**: Track student details, admission fees, monthly fees, and other fees
+- **Staff Management**: Manage staff details, leave information, salary payments, and incentives
+- **Financial Management**: Record income, expenses, and generate financial reports
+- **Receipt Generation**: Create and send fee receipts to parents
+- **Reporting**: Generate detailed reports on student fees, staff salaries, and financial status
 
-**Use Lovable**
+## Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c38fe658-19c4-4948-98f0-40eefad00cf3) and start prompting.
+- React with TypeScript
+- Tailwind CSS for styling
+- Shadcn UI components
+- React Router for navigation
+- TanStack React Table for data tables
+- React Query for data fetching
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Usage
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The application includes:
 
-Follow these steps:
+- Authentication system (login/signup)
+- Dashboard with summary statistics
+- Student management module
+- Staff management module
+- Financial tracking and reporting
+- Receipt generation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Screenshots
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Dashboard view showing key metrics and quick actions:
+![Dashboard](path/to/dashboard-screenshot.png)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Student management interface for tracking fees and details:
+![Students](path/to/students-screenshot.png)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Financial tracking and reporting interface:
+![Finances](path/to/finances-screenshot.png)
 
-**Edit a file directly in GitHub**
+## License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c38fe658-19c4-4948-98f0-40eefad00cf3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+MIT
